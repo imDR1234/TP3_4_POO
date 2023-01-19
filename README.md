@@ -29,4 +29,4 @@ On remarque l'apparition  de la séction address dans la marge à gauche  qui co
 # Etape 18
 L'apparition de la nouvelle table  est dû au Mapping objet relationnel  c'est à dire que la classe address permet de simuler la base de donnée orientée objet à partir de la BD relationnel
 # Etape 23
-L’annotation @Autowired permet d’activer l’injection automatique de dépendance. 
+L’annotation @Autowired permet d’activer l’injection automatique de dépendance. "# TP3_POO" 
