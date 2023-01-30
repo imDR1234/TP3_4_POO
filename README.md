@@ -1,3 +1,5 @@
+#TP POO:
+  https://github.com/imaneDraoui/TP3_4_POO
 "# TP3_POO" 
 
  # La dépendence web 
@@ -28,7 +30,19 @@ Thymeleaf  est un moteur de modèles Java moderne, côté serveur, utilisé pour
 On remarque l'apparition  de la séction address dans la marge à gauche  qui contient ID , CONTENT, CREATION et Indexes  
 # Etape 18
 L'apparition de la nouvelle table  est dû au Mapping objet relationnel  c'est à dire que la classe address permet de simuler la base de donnée orientée objet à partir de la BD relationnel
+# Etape 20
+Oui  on voit pas tout le contenu de la table  , tout les insertions
 # Etape 23
 L’annotation @Autowired permet d’activer l’injection automatique de dépendance. "# TP3_POO" 
 # Etape 30
 Pour importer Bootstrap dans le projet, on ajouté la référence au CDN de Bootstrap dans la balise head du fichier head.html.
+
+"# TP4_POO" 
+# Etape 6:
+ * Oui il faut une clé API qui est le Token d'authentification qui nous permet d'appeler MeteoConcept
+ *  L'URL a appeler esr : https://api.meteo-concept.com/api/forecast/daily?latlng=[lat]%2C[long]&insee=[codeinsee]  Ou le contenu des crochets est remplacé par les valeurs des paramètres.
+ * La methode HTTP utilisé est GET
+ * Les paramètres sont passés dans l'url de l'appel .
+ * Pour afficher la température du lieu visé par les coordonnées GPS forecast[i]->tmin et forecast[i]->tmax avec i = 0 pour aujourd'hui et i = 1 pour demain, etc.
+ * Pour afficher la prévision de météo du lieu visé par les coordonnées GPS  forecast[i]->weather avec i = 0 pour aujourd'hui et i = 1 pour demain, etc.
+ 
